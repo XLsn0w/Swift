@@ -29,6 +29,23 @@ class ViewController: UIViewController {
         print("\(array)")//\()
         
         
+        let i = 10
+        if i > 9 {
+            //
+        } else {
+            //
+        }
+        
+        //Swift
+        for _ in 0 ..< 100 {
+            print("This will be printed 100 times.")
+        }
+        
+        for num in array {
+            print(num)
+            
+            print(type(of: num))
+        }
     }
 
     override func didReceiveMemoryWarning() {
