@@ -5,13 +5,6 @@
 //  Created by HL on 2018/7/6.
 //  Copyright © 2018年 XL. All rights reserved.
 //
-
-import UIKit
-
-class Swift: NSObject {
-
-}
-
 /*
  
  Swift 4.2是Swift 4.0发布以来的第二次小更新, 继上次Xcode 9.3和Swift 4.1发布以来也有俩月有余

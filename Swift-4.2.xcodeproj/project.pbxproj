@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4110981A7B624D67E4152662 /* Pods_Swift_4_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2761B3FC5FA69FDB72A6F645 /* Pods_Swift_4_2.framework */; };
+		6645C3B8212431BB00BB764D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 6645C3B6212431BB00BB764D /* data.json */; };
+		6645C3B9212431BB00BB764D /* SwiftStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645C3B7212431BB00BB764D /* SwiftStudy.swift */; };
 		667B75F020EF36DD0018C4D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B75EF20EF36DD0018C4D4 /* AppDelegate.swift */; };
 		667B75F220EF36DD0018C4D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B75F120EF36DD0018C4D4 /* ViewController.swift */; };
 		667B75F520EF36DD0018C4D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667B75F320EF36DD0018C4D4 /* Main.storyboard */; };
@@ -15,7 +17,7 @@
 		667B75FA20EF36DE0018C4D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667B75F820EF36DE0018C4D4 /* LaunchScreen.storyboard */; };
 		667B760520EF36DE0018C4D4 /* Swift_4_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B760420EF36DE0018C4D4 /* Swift_4_2Tests.swift */; };
 		667B761020EF36DE0018C4D4 /* Swift_4_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B760F20EF36DE0018C4D4 /* Swift_4_2UITests.swift */; };
-		667B761E20EF53F60018C4D4 /* Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B761D20EF53F60018C4D4 /* Swift.swift */; };
+		667B761E20EF53F60018C4D4 /* Swift4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B761D20EF53F60018C4D4 /* Swift4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		2761B3FC5FA69FDB72A6F645 /* Pods_Swift_4_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_4_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6645C3B6212431BB00BB764D /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		6645C3B7212431BB00BB764D /* SwiftStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftStudy.swift; sourceTree = "<group>"; };
 		667B75EC20EF36DD0018C4D4 /* Swift-4.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-4.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		667B75EF20EF36DD0018C4D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		667B75F120EF36DD0018C4D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +54,7 @@
 		667B760B20EF36DE0018C4D4 /* Swift-4.2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-4.2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		667B760F20EF36DE0018C4D4 /* Swift_4_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_4_2UITests.swift; sourceTree = "<group>"; };
 		667B761120EF36DE0018C4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		667B761D20EF53F60018C4D4 /* Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift.swift; sourceTree = "<group>"; };
+		667B761D20EF53F60018C4D4 /* Swift4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift4.swift; sourceTree = "<group>"; };
 		BF55D635B0C60ACFA793CCDC /* Pods-Swift-4.2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-4.2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-4.2/Pods-Swift-4.2.release.xcconfig"; sourceTree = "<group>"; };
 		C847C7B82C5612C3642802A2 /* Pods-Swift-4.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-4.2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-4.2/Pods-Swift-4.2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,7 +120,9 @@
 			children = (
 				667B75EF20EF36DD0018C4D4 /* AppDelegate.swift */,
 				667B75F120EF36DD0018C4D4 /* ViewController.swift */,
-				667B761D20EF53F60018C4D4 /* Swift.swift */,
+				667B761D20EF53F60018C4D4 /* Swift4.swift */,
+				6645C3B6212431BB00BB764D /* data.json */,
+				6645C3B7212431BB00BB764D /* SwiftStudy.swift */,
 				667B75F320EF36DD0018C4D4 /* Main.storyboard */,
 				667B75F620EF36DE0018C4D4 /* Assets.xcassets */,
 				667B75F820EF36DE0018C4D4 /* LaunchScreen.storyboard */,
@@ -261,6 +267,7 @@
 				667B75FA20EF36DE0018C4D4 /* LaunchScreen.storyboard in Resources */,
 				667B75F720EF36DE0018C4D4 /* Assets.xcassets in Resources */,
 				667B75F520EF36DD0018C4D4 /* Main.storyboard in Resources */,
+				6645C3B8212431BB00BB764D /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +332,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				667B75F220EF36DD0018C4D4 /* ViewController.swift in Sources */,
-				667B761E20EF53F60018C4D4 /* Swift.swift in Sources */,
+				6645C3B9212431BB00BB764D /* SwiftStudy.swift in Sources */,
+				667B761E20EF53F60018C4D4 /* Swift4.swift in Sources */,
 				667B75F020EF36DD0018C4D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
