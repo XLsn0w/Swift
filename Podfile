@@ -3,7 +3,8 @@ use_frameworks!
 
 target 'Swift-4.2' do
 
-  pod 'Alamofire'
-# pod 'Kingfisher'
+ pod 'Alamofire'
+ pod 'Kingfisher'
+ pod 'SnapKit'
 
 end
