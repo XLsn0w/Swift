@@ -140,7 +140,6 @@ class ViewController: UIViewController {
         
         for num in array {
             print(num)
-            
             print(type(of: num))
         }
     }
