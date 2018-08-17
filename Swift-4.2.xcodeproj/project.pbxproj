@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4110981A7B624D67E4152662 /* Pods_Swift_4_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2761B3FC5FA69FDB72A6F645 /* Pods_Swift_4_2.framework */; };
+		6612591E212668ED00D07754 /* SessionDataTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612591C212668EC00D07754 /* SessionDataTaskViewController.swift */; };
+		6612591F212668ED00D07754 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612591D212668EC00D07754 /* AlamofireViewController.swift */; };
+		661259212126699800D07754 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259202126699800D07754 /* MVVMViewController.swift */; };
+		6612592421266A7500D07754 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612592221266A7400D07754 /* MyTextView.swift */; };
+		6612592521266A7500D07754 /* MyTextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612592321266A7400D07754 /* MyTextViewModel.swift */; };
+		6612592821266B2C00D07754 /* SortedArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612592621266B2C00D07754 /* SortedArrayViewController.swift */; };
+		6612592921266B2C00D07754 /* SortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612592721266B2C00D07754 /* SortedArray.swift */; };
+		6612592B212672F200D07754 /* PlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612592A212672F200D07754 /* PlistViewController.swift */; };
 		6645C3B8212431BB00BB764D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 6645C3B6212431BB00BB764D /* data.json */; };
 		6645C3B9212431BB00BB764D /* SwiftStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645C3B7212431BB00BB764D /* SwiftStudy.swift */; };
 		667B75F020EF36DD0018C4D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B75EF20EF36DD0018C4D4 /* AppDelegate.swift */; };
@@ -41,6 +49,14 @@
 
 /* Begin PBXFileReference section */
 		2761B3FC5FA69FDB72A6F645 /* Pods_Swift_4_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_4_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6612591C212668EC00D07754 /* SessionDataTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDataTaskViewController.swift; sourceTree = "<group>"; };
+		6612591D212668EC00D07754 /* AlamofireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
+		661259202126699800D07754 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
+		6612592221266A7400D07754 /* MyTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
+		6612592321266A7400D07754 /* MyTextViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextViewModel.swift; sourceTree = "<group>"; };
+		6612592621266B2C00D07754 /* SortedArrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortedArrayViewController.swift; sourceTree = "<group>"; };
+		6612592721266B2C00D07754 /* SortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortedArray.swift; sourceTree = "<group>"; };
+		6612592A212672F200D07754 /* PlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistViewController.swift; sourceTree = "<group>"; };
 		6645C3B6212431BB00BB764D /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		6645C3B7212431BB00BB764D /* SwiftStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftStudy.swift; sourceTree = "<group>"; };
 		667B75EC20EF36DD0018C4D4 /* Swift-4.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-4.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +145,14 @@
 				667B761D20EF53F60018C4D4 /* Swift4.swift */,
 				6645C3B6212431BB00BB764D /* data.json */,
 				6645C3B7212431BB00BB764D /* SwiftStudy.swift */,
+				6612591D212668EC00D07754 /* AlamofireViewController.swift */,
+				6612591C212668EC00D07754 /* SessionDataTaskViewController.swift */,
+				661259202126699800D07754 /* MVVMViewController.swift */,
+				6612592221266A7400D07754 /* MyTextView.swift */,
+				6612592321266A7400D07754 /* MyTextViewModel.swift */,
+				6612592721266B2C00D07754 /* SortedArray.swift */,
+				6612592621266B2C00D07754 /* SortedArrayViewController.swift */,
+				6612592A212672F200D07754 /* PlistViewController.swift */,
 				667B75F320EF36DD0018C4D4 /* Main.storyboard */,
 				667B75F620EF36DE0018C4D4 /* Assets.xcassets */,
 				667B75F820EF36DE0018C4D4 /* LaunchScreen.storyboard */,
@@ -342,11 +366,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				667B75F220EF36DD0018C4D4 /* ViewController.swift in Sources */,
+				6612592821266B2C00D07754 /* SortedArrayViewController.swift in Sources */,
 				66F439BE2125536600C535B7 /* FoundationViewController.swift in Sources */,
 				6645C3B9212431BB00BB764D /* SwiftStudy.swift in Sources */,
 				667B761E20EF53F60018C4D4 /* Swift4.swift in Sources */,
 				66F439BC212552A700C535B7 /* VarLetViewController.swift in Sources */,
+				661259212126699800D07754 /* MVVMViewController.swift in Sources */,
+				6612591E212668ED00D07754 /* SessionDataTaskViewController.swift in Sources */,
+				6612592921266B2C00D07754 /* SortedArray.swift in Sources */,
+				6612592B212672F200D07754 /* PlistViewController.swift in Sources */,
 				667B75F020EF36DD0018C4D4 /* AppDelegate.swift in Sources */,
+				6612591F212668ED00D07754 /* AlamofireViewController.swift in Sources */,
+				6612592421266A7500D07754 /* MyTextView.swift in Sources */,
+				6612592521266A7500D07754 /* MyTextViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

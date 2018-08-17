@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     func handle_json() {
         /*
-         swift支持方法的重载;
+         swift支持方法的重载
          方法的重载:方法名称相同,但是参数不同.包括:
          1.参数的类型不同;
          2.参数的个数不同.
