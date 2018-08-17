@@ -19,6 +19,30 @@
 		6612592D2126742300D07754 /* UserDefaultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612592C2126742300D07754 /* UserDefaultsViewController.swift */; };
 		6612592F212675AB00D07754 /* NSKeyedUnarchiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612592E212675AB00D07754 /* NSKeyedUnarchiverViewController.swift */; };
 		661259312126771E00D07754 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259302126771E00D07754 /* Content.swift */; };
+		6612593321267ED400D07754 /* deferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612593221267ED400D07754 /* deferViewController.swift */; };
+		6612593521267F2600D07754 /* flatMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612593421267F2600D07754 /* flatMapViewController.swift */; };
+		6612593721267F6E00D07754 /* custom_print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612593621267F6E00D07754 /* custom_print.swift */; };
+		66125939212690A400D07754 /* FileReadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66125938212690A400D07754 /* FileReadManager.swift */; };
+		6612593B212690EE00D07754 /* ThrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612593A212690EE00D07754 /* ThrowViewController.swift */; };
+		6612593D2126916B00D07754 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612593C2126916B00D07754 /* ClosureViewController.swift */; };
+		6612593F2126920500D07754 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612593E2126920500D07754 /* CharacterViewController.swift */; };
+		661259412126922D00D07754 /* StringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259402126922D00D07754 /* StringViewController.swift */; };
+		661259432126926300D07754 /* OperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259422126926300D07754 /* OperatorsViewController.swift */; };
+		661259452126928900D07754 /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259442126928900D07754 /* ArrayViewController.swift */; };
+		66125947212692D100D07754 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66125946212692D100D07754 /* DictionaryViewController.swift */; };
+		661259492126933800D07754 /* ConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259482126933800D07754 /* ConditionViewController.swift */; };
+		6612594B2126944F00D07754 /* funcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612594A2126944F00D07754 /* funcViewController.swift */; };
+		6612594D2126956E00D07754 /* extensionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612594C2126956E00D07754 /* extensionDemo.swift */; };
+		6612594F212695E900D07754 /* GenericDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612594E212695E900D07754 /* GenericDemo.swift */; };
+		66125951212695FB00D07754 /* protocolDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66125950212695FB00D07754 /* protocolDemo.swift */; };
+		661259532126965F00D07754 /* KVCDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259522126965F00D07754 /* KVCDemo.swift */; };
+		661259572126978100D07754 /* OptionalDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259562126978000D07754 /* OptionalDemo.swift */; };
+		661259592126994500D07754 /* memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259582126994400D07754 /* memory.swift */; };
+		6612595B2126996300D07754 /* deinitDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612595A2126996300D07754 /* deinitDemo.swift */; };
+		6612595D212699FD00D07754 /* initDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612595C212699FD00D07754 /* initDemo.swift */; };
+		6612595F21269A1200D07754 /* convenienceDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612595E21269A1200D07754 /* convenienceDemo.swift */; };
+		6612596121269A8600D07754 /* inheritDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612596021269A8600D07754 /* inheritDemo.swift */; };
+		6612596321269AB100D07754 /* subscriptDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612596221269AB100D07754 /* subscriptDemo.swift */; };
 		6645C3B8212431BB00BB764D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 6645C3B6212431BB00BB764D /* data.json */; };
 		6645C3B9212431BB00BB764D /* SwiftStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645C3B7212431BB00BB764D /* SwiftStudy.swift */; };
 		667B75F020EF36DD0018C4D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B75EF20EF36DD0018C4D4 /* AppDelegate.swift */; };
@@ -63,6 +87,30 @@
 		6612592C2126742300D07754 /* UserDefaultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsViewController.swift; sourceTree = "<group>"; };
 		6612592E212675AB00D07754 /* NSKeyedUnarchiverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSKeyedUnarchiverViewController.swift; sourceTree = "<group>"; };
 		661259302126771E00D07754 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		6612593221267ED400D07754 /* deferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deferViewController.swift; sourceTree = "<group>"; };
+		6612593421267F2600D07754 /* flatMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flatMapViewController.swift; sourceTree = "<group>"; };
+		6612593621267F6E00D07754 /* custom_print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_print.swift; sourceTree = "<group>"; };
+		66125938212690A400D07754 /* FileReadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReadManager.swift; sourceTree = "<group>"; };
+		6612593A212690EE00D07754 /* ThrowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowViewController.swift; sourceTree = "<group>"; };
+		6612593C2126916B00D07754 /* ClosureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
+		6612593E2126920500D07754 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		661259402126922D00D07754 /* StringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringViewController.swift; sourceTree = "<group>"; };
+		661259422126926300D07754 /* OperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorsViewController.swift; sourceTree = "<group>"; };
+		661259442126928900D07754 /* ArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayViewController.swift; sourceTree = "<group>"; };
+		66125946212692D100D07754 /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
+		661259482126933800D07754 /* ConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionViewController.swift; sourceTree = "<group>"; };
+		6612594A2126944F00D07754 /* funcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funcViewController.swift; sourceTree = "<group>"; };
+		6612594C2126956E00D07754 /* extensionDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionDemo.swift; sourceTree = "<group>"; };
+		6612594E212695E900D07754 /* GenericDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericDemo.swift; sourceTree = "<group>"; };
+		66125950212695FB00D07754 /* protocolDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocolDemo.swift; sourceTree = "<group>"; };
+		661259522126965F00D07754 /* KVCDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVCDemo.swift; sourceTree = "<group>"; };
+		661259562126978000D07754 /* OptionalDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalDemo.swift; sourceTree = "<group>"; };
+		661259582126994400D07754 /* memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memory.swift; sourceTree = "<group>"; };
+		6612595A2126996300D07754 /* deinitDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deinitDemo.swift; sourceTree = "<group>"; };
+		6612595C212699FD00D07754 /* initDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = initDemo.swift; sourceTree = "<group>"; };
+		6612595E21269A1200D07754 /* convenienceDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = convenienceDemo.swift; sourceTree = "<group>"; };
+		6612596021269A8600D07754 /* inheritDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inheritDemo.swift; sourceTree = "<group>"; };
+		6612596221269AB100D07754 /* subscriptDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subscriptDemo.swift; sourceTree = "<group>"; };
 		6645C3B6212431BB00BB764D /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		6645C3B7212431BB00BB764D /* SwiftStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftStudy.swift; sourceTree = "<group>"; };
 		667B75EC20EF36DD0018C4D4 /* Swift-4.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-4.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +210,30 @@
 				6612592C2126742300D07754 /* UserDefaultsViewController.swift */,
 				6612592E212675AB00D07754 /* NSKeyedUnarchiverViewController.swift */,
 				661259302126771E00D07754 /* Content.swift */,
+				6612593221267ED400D07754 /* deferViewController.swift */,
+				6612593421267F2600D07754 /* flatMapViewController.swift */,
+				6612593621267F6E00D07754 /* custom_print.swift */,
+				66125938212690A400D07754 /* FileReadManager.swift */,
+				6612593A212690EE00D07754 /* ThrowViewController.swift */,
+				6612593C2126916B00D07754 /* ClosureViewController.swift */,
+				6612593E2126920500D07754 /* CharacterViewController.swift */,
+				661259402126922D00D07754 /* StringViewController.swift */,
+				661259422126926300D07754 /* OperatorsViewController.swift */,
+				661259442126928900D07754 /* ArrayViewController.swift */,
+				66125946212692D100D07754 /* DictionaryViewController.swift */,
+				661259482126933800D07754 /* ConditionViewController.swift */,
+				6612594A2126944F00D07754 /* funcViewController.swift */,
+				6612594C2126956E00D07754 /* extensionDemo.swift */,
+				6612594E212695E900D07754 /* GenericDemo.swift */,
+				66125950212695FB00D07754 /* protocolDemo.swift */,
+				661259522126965F00D07754 /* KVCDemo.swift */,
+				661259562126978000D07754 /* OptionalDemo.swift */,
+				661259582126994400D07754 /* memory.swift */,
+				6612595A2126996300D07754 /* deinitDemo.swift */,
+				6612595C212699FD00D07754 /* initDemo.swift */,
+				6612595E21269A1200D07754 /* convenienceDemo.swift */,
+				6612596021269A8600D07754 /* inheritDemo.swift */,
+				6612596221269AB100D07754 /* subscriptDemo.swift */,
 				667B75F320EF36DD0018C4D4 /* Main.storyboard */,
 				667B75F620EF36DE0018C4D4 /* Assets.xcassets */,
 				667B75F820EF36DE0018C4D4 /* LaunchScreen.storyboard */,
@@ -374,13 +446,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661259432126926300D07754 /* OperatorsViewController.swift in Sources */,
+				6612595B2126996300D07754 /* deinitDemo.swift in Sources */,
 				667B75F220EF36DD0018C4D4 /* ViewController.swift in Sources */,
 				6612592821266B2C00D07754 /* SortedArrayViewController.swift in Sources */,
 				66F439BE2125536600C535B7 /* FoundationViewController.swift in Sources */,
+				661259592126994500D07754 /* memory.swift in Sources */,
 				6645C3B9212431BB00BB764D /* SwiftStudy.swift in Sources */,
+				66125951212695FB00D07754 /* protocolDemo.swift in Sources */,
+				6612594D2126956E00D07754 /* extensionDemo.swift in Sources */,
+				6612596321269AB100D07754 /* subscriptDemo.swift in Sources */,
+				66125939212690A400D07754 /* FileReadManager.swift in Sources */,
+				6612593B212690EE00D07754 /* ThrowViewController.swift in Sources */,
+				6612593721267F6E00D07754 /* custom_print.swift in Sources */,
 				667B761E20EF53F60018C4D4 /* Swift4.swift in Sources */,
+				6612593321267ED400D07754 /* deferViewController.swift in Sources */,
 				66F439BC212552A700C535B7 /* VarLetViewController.swift in Sources */,
+				661259452126928900D07754 /* ArrayViewController.swift in Sources */,
+				6612594B2126944F00D07754 /* funcViewController.swift in Sources */,
+				6612594F212695E900D07754 /* GenericDemo.swift in Sources */,
 				6612592D2126742300D07754 /* UserDefaultsViewController.swift in Sources */,
+				6612593521267F2600D07754 /* flatMapViewController.swift in Sources */,
+				6612596121269A8600D07754 /* inheritDemo.swift in Sources */,
+				6612593F2126920500D07754 /* CharacterViewController.swift in Sources */,
+				6612593D2126916B00D07754 /* ClosureViewController.swift in Sources */,
+				6612595F21269A1200D07754 /* convenienceDemo.swift in Sources */,
+				6612595D212699FD00D07754 /* initDemo.swift in Sources */,
 				661259212126699800D07754 /* MVVMViewController.swift in Sources */,
 				6612591E212668ED00D07754 /* SessionDataTaskViewController.swift in Sources */,
 				6612592F212675AB00D07754 /* NSKeyedUnarchiverViewController.swift in Sources */,
@@ -389,8 +480,13 @@
 				667B75F020EF36DD0018C4D4 /* AppDelegate.swift in Sources */,
 				6612591F212668ED00D07754 /* AlamofireViewController.swift in Sources */,
 				6612592421266A7500D07754 /* MyTextView.swift in Sources */,
+				661259492126933800D07754 /* ConditionViewController.swift in Sources */,
 				661259312126771E00D07754 /* Content.swift in Sources */,
+				661259412126922D00D07754 /* StringViewController.swift in Sources */,
+				661259572126978100D07754 /* OptionalDemo.swift in Sources */,
+				66125947212692D100D07754 /* DictionaryViewController.swift in Sources */,
 				6612592521266A7500D07754 /* MyTextViewModel.swift in Sources */,
+				661259532126965F00D07754 /* KVCDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

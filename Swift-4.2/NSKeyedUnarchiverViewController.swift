@@ -33,7 +33,6 @@ class NSKeyedUnarchiverViewController: UIViewController {
     
     // MARK - 归档
     func saveWriteNSKeyedArchiver(userModel : Content) {
-        
         // 3.2 对获取到的模型进行归档操作,要注意模型必须是确定的类型,如果是可选类型会报发送未识别的消息的错误(切记)
         NSKeyedArchiver.archiveRootObject(userModel, toFile:userAccountPath)
     }
@@ -56,15 +55,4 @@ class NSKeyedUnarchiverViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
