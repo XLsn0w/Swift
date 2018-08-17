@@ -5,15 +5,20 @@ class HomeViewModel {
     lazy var anchorModels = [AnchorModel]()
 }
 
+class HomeType {
+
+}
+
 extension HomeViewModel {
+    
     func loadHomeData(type : HomeType, index : Int, finishedCallback : @escaping () -> ()) {
         
         // https://qf.56.com/home/v4/moreAnchor.ios?type=0&index=30&size=48
-        HTTPMethoder.requestData(.GET, URLString: "http://qf.56.com/home/v4/moreAnchor.ios", parameters: ["type" : type.type, "index" : index, "size" : 48], finishedCallback: { (result) -> Void in
+        HTTPMethoder.requestData(.GET, URLString: "http://qf.56.com/home/v4/moreAnchor.ios", parameters: ["type" : type, "index" : index, "size" : 48], finishedCallback: { (result) -> Void in
             
-            guard let resultDict = result as? [String : Any] else { return }
+            guard let resultDict  = result as? [String : Any] else { return }
             guard let messageDict = resultDict["message"] as? [String : Any] else { return }
-            guard let dataArray = messageDict["anchors"] as? [[String : Any]] else {
+            guard let dataArray   = messageDict["anchors"] as? [[String : Any]] else {
                 return
             }
             
