@@ -18,14 +18,14 @@ func divisionOperation3(dividend a:Double, divisor b:Double) -> Double {
     //    return dividend / divisor
     return a / b
 }
-print(divisionOperation1(a: 10, b: 3.5))
-print(divisionOperation2(dividend: 10, divisor: 3.5))
-print(divisionOperation3(dividend: 10, divisor: 3.5))
+//print(divisionOperation1(a: 10, b: 3.5))
+//print(divisionOperation2(dividend: 10, divisor: 3.5))
+//print(divisionOperation3(dividend: 10, divisor: 3.5))
 
 func divisionOperation4(a: Double, divisor b:Double) -> Double {
     return a / b
 }
-print(divisionOperation4(a: 10, divisor: 3.5))
+//print(divisionOperation4(a: 10, divisor: 3.5))
 
 /*
  // Swift2.0过时
@@ -40,7 +40,7 @@ print(divisionOperation4(a: 10, divisor: 3.5))
 func divisionOperation5(dividend: Double, divisor: Double) -> Double{
     return dividend / divisor
 }
-print(divisionOperation5(dividend: 10, divisor: 3.8))
+//print(divisionOperation5(dividend: 10, divisor: 3.8))
 
 /*
  默认参数:
@@ -55,21 +55,21 @@ func joinString2(s1:String ,toString s2:String, jioner s3:String = "默认值") 
 {
     return s1 + s3 + s2
 }
-print(joinString2(s1: "hello", toString: "xiaohange"))
+//print(joinString2(s1: "hello", toString: "xiaohange"))
 
 //如果指定了默认参数, 但是却没有声明外部参数时, 系统会自动把内部参数名称既作为内部参数也作为外部参数名称, 并且在调用时如果需要修改默认参数的值必须写上外部参数名称
 func joinString3(s1:String ,toString s2:String, jioner:String = "默认值") -> String
 {
     return s1 + jioner + s2
 }
-print(joinString3(s1: "hi", toString: "xiaohange" ,jioner: "❤️"))
+//print(joinString3(s1: "hi", toString: "xiaohange" ,jioner: "❤️"))
 
 //在其它语言中默认参数智能出现在参数列表的最后面, 但是在Swift中可以出现在任何位置
 func joinString4(s1:String ,jioner:String ,toString s2:String) -> String
 {
     return s1 + jioner + s2
 }
-print(joinString4(s1: "hello", jioner: "HaRi", toString: "Good"))
+//print(joinString4(s1: "hello", jioner: "HaRi", toString: "Good"))
 
 /*
  常量参数和遍历参数:
@@ -106,7 +106,7 @@ func swap(a:Int, b:Int)
     b = temp
     print("交换后 a = \(a), b = \(b)")
 }
-swap(a:10,b:20)
+//swap(a:10,b:20)
 
 /*
  inout参数, 如果想在函数中修改外界传入的参数, 可以将参数的var换成inout, 这回会传递参数本身而不是参数的值

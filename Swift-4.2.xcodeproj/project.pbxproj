@@ -50,6 +50,27 @@
 		6612596D21269D9D00D07754 /* enumDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612596C21269D9C00D07754 /* enumDemo.swift */; };
 		6612596F21269DEF00D07754 /* ClosureDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612596E21269DEE00D07754 /* ClosureDemo.swift */; };
 		6612597121269E1100D07754 /* funcDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612597021269E1100D07754 /* funcDemo.swift */; };
+		661259A12126A11D00D07754 /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = 661259732126A11C00D07754 /* types.plist */; };
+		661259A22126A11D00D07754 /* HTTPMethoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259752126A11D00D07754 /* HTTPMethoder.swift */; };
+		661259A32126A11D00D07754 /* KingfisherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259762126A11D00D07754 /* KingfisherExtension.swift */; };
+		661259A42126A11D00D07754 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612597A2126A11D00D07754 /* BaseModel.swift */; };
+		661259A52126A11D00D07754 /* AnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612597D2126A11D00D07754 /* AnchorViewController.swift */; };
+		661259A72126A11D00D07754 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612597F2126A11D00D07754 /* HomeViewController.swift */; };
+		661259A82126A11D00D07754 /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259812126A11D00D07754 /* AnchorModel.swift */; };
+		661259AA2126A11D00D07754 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259832126A11D00D07754 /* HomeViewModel.swift */; };
+		661259AB2126A11D00D07754 /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259842126A11D00D07754 /* WaterfallLayout.swift */; };
+		661259AC2126A11D00D07754 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259862126A11D00D07754 /* HomeViewCell.swift */; };
+		661259B02126A11D00D07754 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612598E2126A11D00D07754 /* Const.swift */; };
+		661259B12126A11D00D07754 /* JQNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259902126A11D00D07754 /* JQNavigationController.swift */; };
+		661259B22126A11D00D07754 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259912126A11D00D07754 /* MainViewController.swift */; };
+		661259B32126A11D00D07754 /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259932126A11D00D07754 /* NSDate-Extension.swift */; };
+		661259B42126A11D00D07754 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259942126A11D00D07754 /* UIColor-Extension.swift */; };
+		661259B52126A11D00D07754 /* JQContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259962126A11D00D07754 /* JQContentView.swift */; };
+		661259B62126A11D00D07754 /* JQPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259972126A11D00D07754 /* JQPageView.swift */; };
+		661259B72126A11D00D07754 /* JQTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259982126A11D00D07754 /* JQTitleStyle.swift */; };
+		661259B82126A11D00D07754 /* JQTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259992126A11D00D07754 /* JQTitleView.swift */; };
+		661259B92126A11D00D07754 /* Emitterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612599B2126A11D00D07754 /* Emitterable.swift */; };
+		661259BA2126A11D00D07754 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612599C2126A11D00D07754 /* NibLoadable.swift */; };
 		6645C3B8212431BB00BB764D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 6645C3B6212431BB00BB764D /* data.json */; };
 		6645C3B9212431BB00BB764D /* SwiftStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645C3B7212431BB00BB764D /* SwiftStudy.swift */; };
 		667B75F020EF36DD0018C4D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B75EF20EF36DD0018C4D4 /* AppDelegate.swift */; };
@@ -125,6 +146,27 @@
 		6612596C21269D9C00D07754 /* enumDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enumDemo.swift; sourceTree = "<group>"; };
 		6612596E21269DEE00D07754 /* ClosureDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureDemo.swift; sourceTree = "<group>"; };
 		6612597021269E1100D07754 /* funcDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = funcDemo.swift; sourceTree = "<group>"; };
+		661259732126A11C00D07754 /* types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = types.plist; sourceTree = "<group>"; };
+		661259752126A11D00D07754 /* HTTPMethoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethoder.swift; sourceTree = "<group>"; };
+		661259762126A11D00D07754 /* KingfisherExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherExtension.swift; sourceTree = "<group>"; };
+		6612597A2126A11D00D07754 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		6612597D2126A11D00D07754 /* AnchorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorViewController.swift; sourceTree = "<group>"; };
+		6612597F2126A11D00D07754 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		661259812126A11D00D07754 /* AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		661259832126A11D00D07754 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		661259842126A11D00D07754 /* WaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
+		661259862126A11D00D07754 /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		6612598E2126A11D00D07754 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		661259902126A11D00D07754 /* JQNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQNavigationController.swift; sourceTree = "<group>"; };
+		661259912126A11D00D07754 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		661259932126A11D00D07754 /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		661259942126A11D00D07754 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		661259962126A11D00D07754 /* JQContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQContentView.swift; sourceTree = "<group>"; };
+		661259972126A11D00D07754 /* JQPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQPageView.swift; sourceTree = "<group>"; };
+		661259982126A11D00D07754 /* JQTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQTitleStyle.swift; sourceTree = "<group>"; };
+		661259992126A11D00D07754 /* JQTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQTitleView.swift; sourceTree = "<group>"; };
+		6612599B2126A11D00D07754 /* Emitterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emitterable.swift; sourceTree = "<group>"; };
+		6612599C2126A11D00D07754 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		6645C3B6212431BB00BB764D /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		6645C3B7212431BB00BB764D /* SwiftStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftStudy.swift; sourceTree = "<group>"; };
 		667B75EC20EF36DD0018C4D4 /* Swift-4.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-4.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +223,73 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		661259742126A11D00D07754 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				661259932126A11D00D07754 /* NSDate-Extension.swift */,
+				661259942126A11D00D07754 /* UIColor-Extension.swift */,
+				661259752126A11D00D07754 /* HTTPMethoder.swift */,
+				661259762126A11D00D07754 /* KingfisherExtension.swift */,
+				6612599B2126A11D00D07754 /* Emitterable.swift */,
+				6612599C2126A11D00D07754 /* NibLoadable.swift */,
+				6612598E2126A11D00D07754 /* Const.swift */,
+				661259962126A11D00D07754 /* JQContentView.swift */,
+				661259972126A11D00D07754 /* JQPageView.swift */,
+				661259982126A11D00D07754 /* JQTitleStyle.swift */,
+				661259992126A11D00D07754 /* JQTitleView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		661259772126A11D00D07754 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				661259902126A11D00D07754 /* JQNavigationController.swift */,
+				661259912126A11D00D07754 /* MainViewController.swift */,
+				6612597A2126A11D00D07754 /* BaseModel.swift */,
+				661259742126A11D00D07754 /* Tools */,
+				6612597B2126A11D00D07754 /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6612597B2126A11D00D07754 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6612597C2126A11D00D07754 /* Controller */,
+				661259802126A11D00D07754 /* Model */,
+				661259852126A11D00D07754 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6612597C2126A11D00D07754 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6612597D2126A11D00D07754 /* AnchorViewController.swift */,
+				6612597F2126A11D00D07754 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		661259802126A11D00D07754 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				661259812126A11D00D07754 /* AnchorModel.swift */,
+				661259832126A11D00D07754 /* HomeViewModel.swift */,
+				661259842126A11D00D07754 /* WaterfallLayout.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		661259852126A11D00D07754 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				661259862126A11D00D07754 /* HomeViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		667B75E320EF36DD0018C4D4 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +315,8 @@
 		667B75EE20EF36DD0018C4D4 /* Swift-4.2 */ = {
 			isa = PBXGroup;
 			children = (
+				661259772126A11D00D07754 /* Classes */,
+				661259732126A11C00D07754 /* types.plist */,
 				667B75EF20EF36DD0018C4D4 /* AppDelegate.swift */,
 				667B75F120EF36DD0018C4D4 /* ViewController.swift */,
 				66F439BB212552A700C535B7 /* VarLetViewController.swift */,
@@ -398,6 +509,7 @@
 			files = (
 				667B75FA20EF36DE0018C4D4 /* LaunchScreen.storyboard in Resources */,
 				667B75F720EF36DE0018C4D4 /* Assets.xcassets in Resources */,
+				661259A12126A11D00D07754 /* types.plist in Resources */,
 				667B75F520EF36DD0018C4D4 /* Main.storyboard in Resources */,
 				6645C3B8212431BB00BB764D /* data.json in Resources */,
 			);
@@ -471,35 +583,49 @@
 				6612596521269D2C00D07754 /* classDemo.swift in Sources */,
 				6612595B2126996300D07754 /* deinitDemo.swift in Sources */,
 				667B75F220EF36DD0018C4D4 /* ViewController.swift in Sources */,
+				661259B82126A11D00D07754 /* JQTitleView.swift in Sources */,
 				6612592821266B2C00D07754 /* SortedArrayViewController.swift in Sources */,
 				66F439BE2125536600C535B7 /* FoundationViewController.swift in Sources */,
 				661259592126994500D07754 /* memory.swift in Sources */,
 				6645C3B9212431BB00BB764D /* SwiftStudy.swift in Sources */,
 				66125951212695FB00D07754 /* protocolDemo.swift in Sources */,
 				6612594D2126956E00D07754 /* extensionDemo.swift in Sources */,
+				661259B32126A11D00D07754 /* NSDate-Extension.swift in Sources */,
 				6612596321269AB100D07754 /* subscriptDemo.swift in Sources */,
+				661259AC2126A11D00D07754 /* HomeViewCell.swift in Sources */,
 				66125939212690A400D07754 /* FileReadManager.swift in Sources */,
+				661259A22126A11D00D07754 /* HTTPMethoder.swift in Sources */,
 				6612593B212690EE00D07754 /* ThrowViewController.swift in Sources */,
+				661259B12126A11D00D07754 /* JQNavigationController.swift in Sources */,
 				6612593721267F6E00D07754 /* custom_print.swift in Sources */,
+				661259B22126A11D00D07754 /* MainViewController.swift in Sources */,
 				667B761E20EF53F60018C4D4 /* Swift4.swift in Sources */,
 				6612593321267ED400D07754 /* deferViewController.swift in Sources */,
+				661259BA2126A11D00D07754 /* NibLoadable.swift in Sources */,
 				66F439BC212552A700C535B7 /* VarLetViewController.swift in Sources */,
 				661259452126928900D07754 /* ArrayViewController.swift in Sources */,
 				6612594B2126944F00D07754 /* funcViewController.swift in Sources */,
+				661259A72126A11D00D07754 /* HomeViewController.swift in Sources */,
 				6612594F212695E900D07754 /* GenericDemo.swift in Sources */,
 				6612592D2126742300D07754 /* UserDefaultsViewController.swift in Sources */,
 				6612596D21269D9D00D07754 /* enumDemo.swift in Sources */,
 				6612596721269D3F00D07754 /* structDemo.swift in Sources */,
 				6612593521267F2600D07754 /* flatMapViewController.swift in Sources */,
+				661259B02126A11D00D07754 /* Const.swift in Sources */,
 				6612596121269A8600D07754 /* inheritDemo.swift in Sources */,
+				661259AB2126A11D00D07754 /* WaterfallLayout.swift in Sources */,
 				6612593F2126920500D07754 /* CharacterViewController.swift in Sources */,
 				6612597121269E1100D07754 /* funcDemo.swift in Sources */,
 				6612593D2126916B00D07754 /* ClosureViewController.swift in Sources */,
+				661259B62126A11D00D07754 /* JQPageView.swift in Sources */,
 				6612595F21269A1200D07754 /* convenienceDemo.swift in Sources */,
 				6612595D212699FD00D07754 /* initDemo.swift in Sources */,
+				661259A32126A11D00D07754 /* KingfisherExtension.swift in Sources */,
 				661259212126699800D07754 /* MVVMViewController.swift in Sources */,
+				661259A82126A11D00D07754 /* AnchorModel.swift in Sources */,
 				6612591E212668ED00D07754 /* SessionDataTaskViewController.swift in Sources */,
 				6612592F212675AB00D07754 /* NSKeyedUnarchiverViewController.swift in Sources */,
+				661259B52126A11D00D07754 /* JQContentView.swift in Sources */,
 				6612592921266B2C00D07754 /* SortedArray.swift in Sources */,
 				6612596F21269DEF00D07754 /* ClosureDemo.swift in Sources */,
 				6612592B212672F200D07754 /* PlistViewController.swift in Sources */,
@@ -510,11 +636,17 @@
 				6612596B21269D8800D07754 /* classMethod.swift in Sources */,
 				661259312126771E00D07754 /* Content.swift in Sources */,
 				661259412126922D00D07754 /* StringViewController.swift in Sources */,
+				661259A42126A11D00D07754 /* BaseModel.swift in Sources */,
+				661259B72126A11D00D07754 /* JQTitleStyle.swift in Sources */,
 				6612596921269D7300D07754 /* propertyDemo.swift in Sources */,
+				661259B42126A11D00D07754 /* UIColor-Extension.swift in Sources */,
 				661259572126978100D07754 /* OptionalDemo.swift in Sources */,
+				661259AA2126A11D00D07754 /* HomeViewModel.swift in Sources */,
 				66125947212692D100D07754 /* DictionaryViewController.swift in Sources */,
+				661259B92126A11D00D07754 /* Emitterable.swift in Sources */,
 				6612592521266A7500D07754 /* MyTextViewModel.swift in Sources */,
 				661259532126965F00D07754 /* KVCDemo.swift in Sources */,
+				661259A52126A11D00D07754 /* AnchorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
