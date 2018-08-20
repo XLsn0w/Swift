@@ -4,16 +4,16 @@
  其实Swift中的存储属性就是以前学习OC中的普通属性, 在结构体或者类中定义的属性, 默认就是存储属性
  */
 
-struct Person {
+struct Man {
     var name: String
     var age: Int
 }
-var p = Person(name: "xiaohange", age: 26)
-print("name = \(p.name) age = \(p.age)")
+var p = Man(name: "xiaohange", age: 26)
+//print("name = \(p.name) age = \(p.age)")
 
 p.name = "HaRi"
 p.age = 28
-print("name = \(p.name) age = \(p.age)")
+//print("name = \(p.name) age = \(p.age)")
 
 /*
  常量存储属性

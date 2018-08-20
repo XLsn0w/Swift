@@ -1,10 +1,3 @@
-//
-//  main.swift
-//  枚举
-//
-//  Created by 韩俊强 on 2017/6/12.
-//  Copyright © 2017年 HaRi. All rights reserved.
-//
 
 import Foundation
 
@@ -27,28 +20,35 @@ enum Method {
 }
 
 // 可以使用枚举类型变量或者常量接收枚举值
-var m:Method = .Add
-print(m)
+var m0:Method = .Add
 
 // 注意: 如果变量或者常量没有指定类型, 那么前面必须加上该值属于哪个枚举类型
 var m1 = Method.Add
-print(m1)
 
-// 利用Switch匹配
-// 注意: 如果case中包含了所有的值, 可以不写default; 如果case没有包含枚举中所有的值, 必须写default
 
-switch (Method.Add){
-case Method.Add:
-    print("加法")
-case Method.Sub:
-    print("减法")
-case Method.Mul:
-    print("除法")
-case Method.Div:
-    print("乘法")
-//default:
-//    print("都不是")
+class demo {
+
+    
+    func demofunc() {
+        // 利用Switch匹配
+        // 注意: 如果case中包含了所有的值, 可以不写default; 如果case没有包含枚举中所有的值, 必须写default
+        
+        switch (Method.Add){
+        case Method.Add:
+            print("加法")
+        case Method.Sub:
+            print("减法")
+        case Method.Mul:
+            print("除法")
+        case Method.Div:
+            print("乘法")
+            //default:
+            //    print("都不是")
+        }
+    }
+
 }
+
 
 /*
  原始值:
@@ -75,10 +75,10 @@ enum Method4: Double {
 
 // rawValue代表将枚举值转换为原始值, 注意老版本中转换为原始值的方法名叫toRaw
 // 最新的Swift版本不再支持toRaw和fromRaw了，只有rawValue属性和hashValue属性了！
-print(Method4.Sub.rawValue)
+//print(Method4.Sub.rawValue)
 
 // hashValue来访问成员值所对应的哈希值，这个哈希值是不能改变的，由编译器自动生成，之后不可改变，Swift在背后实际上使用哈希值来识别枚举符号的（即成员）
-print(Method4.Mul.hashValue)
+//print(Method4.Mul.hashValue)
 
 // 原始值转换为枚举值
 enum Method5: String {
@@ -93,7 +93,7 @@ enum Method5: String {
  3.老版本中为fromRaw("add")
  */
 let m2:Method5 = Method5(rawValue: "add")!
-print(m2)
+//print(m2)
 
 //func chooseMethod(op:Method2)
 
@@ -112,7 +112,7 @@ func chooseMethod5(rawString: String) {
         }
     }
 }
-print(chooseMethod5(rawString: "add"))
+//print(chooseMethod5(rawString: "add"))
 
 /*
  枚举相关值:
@@ -126,7 +126,7 @@ enum lineSegmentDescriptor {
 }
 
 var lsd = lineSegmentDescriptor.StartAndLengthPattern(start: 0.0, length: 100.0)
-lsd = lineSegmentDescriptor.StartAndEndPattern(start: 0.0, end: 50.0)
+    lsd = lineSegmentDescriptor.StartAndEndPattern(start: 0.0, end: 50.0)
 print(lsd)
 
 // 利用switch提取枚举关联值

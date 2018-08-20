@@ -25,10 +25,8 @@ func getIncFunc(inc: Int) -> (Int) -> Int
 //当捕获的值回合与之对应的方法绑定在一起, 同意个方法中的变量会被绑定到不同的方法中
 
 let incFunc = getIncFunc(inc: 5)
-print(incFunc(5))
-print(incFunc(5))
 let incFunc2 = getIncFunc(inc: 5)
-print(incFunc2(5))
+
 
 
 

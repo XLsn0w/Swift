@@ -1,10 +1,3 @@
-//
-//  main.swift
-//  方法
-//
-//  Created by 韩俊强 on 2017/6/13.
-//  Copyright © 2017年 HaRi. All rights reserved.
-//
 
 import Foundation
 

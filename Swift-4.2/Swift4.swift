@@ -28,20 +28,10 @@
  case mobile
  case none
  }
+ 
  之后我们在其他地方调用改枚举时就可以获取到allCase属性, 如下
  
- 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
- 10
- 11
- 12
+
  print(NetState.allCases)
  print("case个数: " + "\(NetState.allCases.count)")
  for item in NetState.allCases {
@@ -56,25 +46,8 @@
  none
  这个allCases的自动合成仅替换没有参数的case值, 但是如果需要你需要所有case值, 可以重写allCases属性自己添加
  
- 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
- 10
- 11
- 12
- 13
- 14
- 15
- 16
- 17
- 18
- 19
+
+ 
  enum FoodKind: CaseIterable {
  //此处, 必须重写allCases属性, 否则报错
  static var allCases: [FoodKind] {
@@ -96,26 +69,8 @@
  */
  如果有枚举项标记为unavailable，则默认无法合成allCases，只能依靠自己来手动合成
  
- 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
- 10
- 11
- 12
- 13
- 14
- 15
- 16
- 17
- 18
- 19
- 20
+
+ 
  enum CarKind: CaseIterable {
  //当有unavailable修饰的case值, 也必须重写allCase属性
  static var allCases: [CarKind] {
@@ -145,16 +100,13 @@
  #warning主要用于提醒你或者别人一些工作还没有完成，Xcode模板常使用#warning标记一些你需要替换成自己代码的方法存根(method stubs)。
  
  #error主要用于如果你发送一个库，需要其他开发者提供一些数据。比如，一个网络 API的认证密码，你需要用户输入它们自己的密码，就使用#error在继续之前强制他们更改这行代码
- 
- 9.png
+
  
  image
  
  #warning和#error可以和已存的#if编译指令共同使用，并且只有在条件为true时才会激活。例如：
+
  
- 1
- 2
- 3
  #if os(macOS)
  #error("MyLibrary is not supported on macOS.")
  #endif

@@ -34,14 +34,11 @@ class MVVMViewController: UIViewController {
         let view = MyTextView(viewModel: self.textViewModel)
         view.frame = UIScreen.main.bounds
         return view
-        
     }()
     
     private lazy var textViewModel: MyTextViewModel = {
-        
         let model = MyTextViewModel()
         return model
-        
     }()
 
     override func didReceiveMemoryWarning() {

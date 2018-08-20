@@ -9,20 +9,8 @@
 import UIKit
 
 class funcViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
-    
-    
-    
-    
-    
     /*
-     函数: 完成某个特定任务的代码块, 给代码起一个合适的名称, 称为函数名称; 以后需要执行代码块只需要利用函数名称调用即可.
+     函数: 完成某个特定任务的代码块, 给代码起一个合适的名称, 称为函数名称; 以后需要执行代码块只需要invoke函数名称调用即可.
      格式:
      func 函数名称(参数名:参数类型, 参数名:参数类型,...) -> 函数返回值 {函数实现部分}
      

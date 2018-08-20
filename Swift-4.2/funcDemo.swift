@@ -6,7 +6,7 @@
  外部参数只能外部用, 函数内部不能使用, 函数内部只能使用内部参数
  */
 
-func divisionOperation1(a: Double, b: Double) -> Double{
+func divisionOperation1(a: Double, b: Double) -> Double {
     return a / b
 }
 
@@ -64,7 +64,7 @@ func joinString3(s1:String ,toString s2:String, jioner:String = "默认值") -> 
 }
 //print(joinString3(s1: "hi", toString: "xiaohange" ,jioner: "❤️"))
 
-//在其它语言中默认参数智能出现在参数列表的最后面, 但是在Swift中可以出现在任何位置
+//在其它语言中默认参数只能出现在参数列表的最后面, 但是在Swift中可以出现在任何位置
 func joinString4(s1:String ,jioner:String ,toString s2:String) -> String
 {
     return s1 + jioner + s2
