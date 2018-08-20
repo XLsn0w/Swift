@@ -12,9 +12,6 @@ class ConditionViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
-        
         /*
          if语句基本使用
          OC:
@@ -43,8 +40,8 @@ class ConditionViewController: UIViewController {
          1.只能以bool作为条件语句
          2.如果只有条指令if后面的大括号不可以省略
          */
-        var age1 = 10
-        var age2 = 20
+        let age1 = 10
+        let age2 = 20
         var max:Int
         max = age2
         if age1 > age2
@@ -89,9 +86,8 @@ class ConditionViewController: UIViewController {
          }
          */
         
-        var score = 99.9;
-        if score >= 90
-        {
+        let score = 99.9;
+        if score >= 90 {
             print("优秀")
         }else if score >= 60
         {
@@ -190,17 +186,8 @@ class ConditionViewController: UIViewController {
             i3 += 1
             sum3 = i3
         }while i3 <= 10
+        
         print(sum3)
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         /*
          for循环
@@ -608,7 +595,7 @@ class ConditionViewController: UIViewController {
         /** Swift:可以判断对象类型, OC必须是整数 **/
         //不可以穿透
         //可以不写break
-        var rank = "A"
+        let rank = "A"
         switch rank{
         case "A":  // 相当于if
             print("A")
@@ -634,7 +621,7 @@ class ConditionViewController: UIViewController {
          }
          */
         //只能这么写
-        var rank1 = "A"
+        let rank1 = "A"
         switch rank1{
         case "A", "B": // 注意OC不能这样写
             print("A&&B")
@@ -673,10 +660,10 @@ class ConditionViewController: UIViewController {
          */
         
         //在case中定义变量不用加大括号
-        var rank4 = "A"
+        let rank4 = "A"
         switch rank4{
         case "A":
-            var num = 10
+            _ = 10
             print("A")
         case "B":
             print("B")
@@ -733,33 +720,6 @@ class ConditionViewController: UIViewController {
          print("Other")
          }
          */
-        
-        
-
-
-
-        
-        
-        
-        
-
-
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

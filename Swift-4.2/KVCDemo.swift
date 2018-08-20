@@ -10,8 +10,10 @@ import Foundation
 /*
  struct 也支持 KVC
  */
+func demoKVC() {
+    
 
-/*
+
 struct ValueType {
     var name:String
 }
@@ -22,7 +24,7 @@ let name =  \ValueType.name
 object[keyPath: name] = "Swift4"
 //get
 let valueOfName = object[keyPath:name]
-*/
+
 
 
 
@@ -56,5 +58,4 @@ func TestKVO() {
 TestKVO()
 */
 
-
-
+}

@@ -13,8 +13,6 @@ class DictionaryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-        
         /*
          字典定义: 键值对
          OC:
@@ -29,17 +27,17 @@ class DictionaryViewController: UIViewController {
          */
         
         // key一定要是可以hash的(String, Int, Double, Bool), value没有要求
-        var dict00 = ["name":"hjq","age":25.5] as Any
+        let dict00:Dictionary = ["name":"hjq","age":25.5] as [String : Any]
         print(dict00)
         
         //var dict1:Dictionary = ["name":"hjq","age":25.5] 废弃
         
-        var dict2:Dictionary<String,AnyObject> = ["name":"jq" as AnyObject,"age":25.5 as AnyObject]
+        let dict2:Dictionary<String,AnyObject> = ["name":"jq" as AnyObject,"age":25.5 as AnyObject]
         print(dict2)
         
         //var dict3:Dictionary<String:AnyObject> = ["name":"jq","age":34]  废弃
         
-        var dict4:[String:AnyObject] = ["name":"hjq" as AnyObject ,"age":30 as AnyObject ]
+        let dict4:[String:AnyObject] = ["name":"hjq" as AnyObject ,"age":30 as AnyObject ]
         print(dict4)
         
         //var dict5:[String:AnyObject] = Dictionary(dictionaryLiteral: ("name","hjq"),("age",28))
@@ -49,6 +47,8 @@ class DictionaryViewController: UIViewController {
         //1.字典的定义使用[key:value,key:value]快速定义
         let dic:[String:Any] = ["name":"zhang","age":12]
         print(dic)
+        
+//        let girlFriend = [];
         
         //数组字典
         let arrDic:[[String:Any]] = [
