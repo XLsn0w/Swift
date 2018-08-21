@@ -19,7 +19,6 @@ class SessionDataTaskViewController: UIViewController, URLSessionDelegate {
         btn.titleLabel?.font = UIFont.systemFont(ofSize: 20)
         btn.addTarget(self, action: #selector(starRequest), for: UIControlEvents.touchUpInside)
         self.view.addSubview(btn)
-        
     }
     
     // MARK: - 代理

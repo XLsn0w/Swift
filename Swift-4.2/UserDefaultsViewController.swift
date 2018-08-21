@@ -17,14 +17,13 @@ class UserDefaultsViewController: UIViewController {
         
         self.navigationItem.title = "NSUserDefault"
         
-        let saveItem = UIBarButtonItem(title: "save", style: .done, target: self, action: #selector(save))
-        let readItem = UIBarButtonItem(title: "read", style: .done, target: self, action: #selector(readInfo))
+        let saveItem   = UIBarButtonItem(title: "save", style: .done, target: self, action: #selector(save))
+        let readItem   = UIBarButtonItem(title: "read", style: .done, target: self, action: #selector(readInfo))
         let deleteItem = UIBarButtonItem(title: "del", style: .done, target: self, action: #selector(deleteInfo))
         
         self.navigationItem.rightBarButtonItems = [saveItem, readItem, deleteItem]
         
         setupUI()
-        
     }
     
     override func loadView() {
@@ -34,7 +33,6 @@ class UserDefaultsViewController: UIViewController {
             self.edgesForExtendedLayout = UIRectEdge()
         }
     }
-
     
     // MARK: - 保存
     func saveInfo(_ name : String){

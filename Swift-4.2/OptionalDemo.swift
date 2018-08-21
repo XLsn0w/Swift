@@ -182,6 +182,7 @@ class C {
 class D {
     var c1:C?
 }
+
 var a1 = A()
 var b1 = B()
 var c1 = C()
