@@ -28,7 +28,7 @@ extension Transport {
     }
 }
 var myTrans = Transport(scope: "飞机")
-print(myTrans.extProperty)
+//print(myTrans.extProperty)
 
 /// 2.扩展构造器
 class Transport1 {

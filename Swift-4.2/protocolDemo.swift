@@ -52,10 +52,11 @@ class MyClass : ClassProtocol {
         return "\(self.stName) has \(self.subject)"
     }
 }
+
 //创建对象
 var classa = MyClass()
-print(classa.attendance())  // The Class has secured 99% attendance
-print(classa.markSScured()) // Class has Swift Protocol
+//print(classa.attendance())  // The Class has secured 99% attendance
+//print(classa.markSScured()) // Class has Swift Protocol
 
 //// 3.协议普通方法实现
 // 协议可以要求制定实例方法和类型方法被一致的类型实现. 这些方法被写为定义协议的一部分, 跟普通实例和类型方法完全一样, 但是没有大括号或方法体. 可变参数是允许的, 普通方法也遵循同样的规则, 不过不允许给协议方法参数指定默认值.

@@ -19,7 +19,7 @@ class NSKeyedUnarchiverViewController: UIViewController {
         
         let userModel = Content()
         userModel.id = 419
-        userModel.nickname = "小韩哥"
+        userModel.nickname = "小"
         userModel.phone = "1588888888"
         
         // 归档

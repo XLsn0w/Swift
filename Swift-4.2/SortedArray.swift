@@ -1,7 +1,3 @@
-/*
- Swift开发者组织，汇聚Swift开源项目与实用开发技巧，Objective-C | Swift交流！官方付费QQ群:446310206|426087546
- */
-
 /// An array that keeps its elements sorted at all times.
 public struct SortedArray<Element> {
     /// The backing store

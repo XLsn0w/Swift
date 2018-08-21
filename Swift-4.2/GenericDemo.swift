@@ -23,15 +23,15 @@ func show(para:Double) {
 func show<T>(para:T) {
     print("Hello \(para)")
 }
-show(para: "小韩哥") // 输出"Hello 小韩哥"
-show(para: 12) //输出 "Hello 12"
+//show(para: "小韩哥") // 输出"Hello 小韩哥"
+//show(para: 12) //输出 "Hello 12"
 
 
 //2.泛型函数在声明时使用了节点类型命名(通常情况下用字母 T, U, V 这样的大写字母来表示)来代替实际类型名(如: Int, String 或 Double). 节点类型在定义时不表示任何具体类型, 在函数被调用时会根据传入的实际类型来制定自身的类型. 另外需要指出的是, 如果函数的泛型列表只有一个 T, 虽然具体类型不需要指定, 但是每个节点类型的参数必须是相同类型的. 例如:
 func show1<T>(para:T,para2:T){}
 //在调用这个函数时, 两个参数必须是相同的类型:
-show1(para: 1, para2: 2)
-show1(para: "小花", para2: "小明")
+//show1(para: 1, para2: 2)
+//show1(para: "小花", para2: "小明")
 
 
 //3.定义多个不同类型的泛型,则需要在街括号中加入多个节点:<T,U,V> ;

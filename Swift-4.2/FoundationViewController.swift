@@ -13,8 +13,6 @@ class FoundationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-        
         /*
          基本数据类型
          OC:
@@ -47,7 +45,7 @@ class FoundationViewController: UIViewController {
         
         //Swift是类型安全的语言, 如果取值错误会直接报错, 而OC不会
         /*
-         取值不对
+/Users/hl/Swift4/Swift-4.2/memory.swift         取值不对
          OC:unsigned int intValue = -10; 不会报错
          Swift:var intValue:UInt = -10 会报错
          溢出:
