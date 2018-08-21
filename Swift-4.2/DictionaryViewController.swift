@@ -35,9 +35,9 @@ class DictionaryViewController: UIViewController {
         let dict2:Dictionary<String,AnyObject> = ["name":"jq" as AnyObject,"age":25.5 as AnyObject]
         print(dict2)
         
-        //var dict3:Dictionary<String:AnyObject> = ["name":"jq","age":34]  废弃
+        //var dict3:Dictionary<String:AnyObject> = ["name":"jq", "age":34]  废弃
         
-        let dict4:[String:AnyObject] = ["name":"hjq" as AnyObject ,"age":30 as AnyObject ]
+        let dict4:[String:AnyObject] = ["name":"hjq" as AnyObject, "age":30 as AnyObject]
         print(dict4)
         
         //var dict5:[String:AnyObject] = Dictionary(dictionaryLiteral: ("name","hjq"),("age",28))
@@ -45,7 +45,7 @@ class DictionaryViewController: UIViewController {
         
         //3.0
         //1.字典的定义使用[key:value,key:value]快速定义
-        let dic:[String:Any] = ["name":"zhang","age":12]
+        let dic:[String:Any] = ["name":"zhang", "age":12]
         print(dic)
         
 //        let girlFriend = [];
@@ -190,11 +190,7 @@ class DictionaryViewController: UIViewController {
         for (id,name) in studentDic {
             print(id,name)
         }
-        
-        
-        
-        
-        
+   
 
     }
 

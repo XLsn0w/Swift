@@ -8,7 +8,7 @@ import Foundation
  Some 有值
  格式: Optional<类型> 或者在类型后面加上?号
  由于可选类型在Swift中随处可见, 所有系统做了这个语法糖, 在类型后面加上?
- */
+*/
 
 var opa: Optional<Int>
 var opb: Int?

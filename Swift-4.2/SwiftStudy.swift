@@ -22,7 +22,6 @@ class SwiftStudy: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
         // 1.字符串String类型更加人性化，多行字符串文字，支持Range，也算集合类型
         let galaxy = "Hi,XiaoHange"
         print(galaxy.count)      // 12
@@ -39,9 +38,7 @@ class SwiftStudy: UIViewController {
         }
         
         print("=============更便捷的Range================")
-        
-        
-        
+
         // 2.更便捷的Range
         // Swift3.0
         var str = "Hi, XiaoHanGe!"
