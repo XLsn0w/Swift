@@ -38,12 +38,14 @@ class Transport1 {
         self.scope = scope
     }
 }
+
 extension Transport1 {
     convenience init(price:Int, scope:String) {
         self.init(scope: scope)
         self.price = price
     }
 }
+
 var myTra1 = Transport1(price: 55, scope: "大炮") //使用宽展的构造器, 价格为55
 var myTra2 = Transport(scope: "轮船") //使用原构造器, 价格属性的值仍然是30
 
@@ -56,7 +58,7 @@ extension Int {
     }
 }
 var i = 3
-print(3.calculate()) // 返回6
+//print(3.calculate()) // 返回6
 
 //扩展下标
 //我们还可以通过扩展下标的方法来增强类的功能, 比如扩展整数类型, 使整数类型可以通过下标返回整数的倍数;
@@ -66,7 +68,7 @@ extension Int {
     }
 }
 var j = 3
-print(3[2]) //返回6
+//print(3[2]) //返回6
 
 
 

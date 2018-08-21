@@ -18,7 +18,6 @@ import UIKit
 //assert(someFunction() != nil, "someFunction 返回了空值! ")
 
 
-
 /*
  precondition: 它和 assert 的格式类型, 也是动态的, 它会造成程序的提前终止并抛出错误信息; 前面讲过, Swift 数组的下标操作可能造成越界, 使用扩展的方式向其中怎敢爱一个方法来判断下标是否越界:
  */

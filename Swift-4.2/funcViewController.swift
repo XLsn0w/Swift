@@ -45,8 +45,7 @@ class funcViewController: UIViewController {
      */
     
     // 无参无返回值
-    func say()->Void
-    {
+    func say() -> Void {
         print("Hello")
     }
     

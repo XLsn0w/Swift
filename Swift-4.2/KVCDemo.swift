@@ -13,7 +13,6 @@ import Foundation
 func demoKVC() {
     
 
-
 struct ValueType {
     var name:String
 }
@@ -24,9 +23,6 @@ let name =  \ValueType.name
 object[keyPath: name] = "Swift4"
 //get
 let valueOfName = object[keyPath:name]
-
-
-
 
 /*
  KVO: 目前依然只有 NSObject 才支持KVO
@@ -40,7 +36,6 @@ class OCClass: NSObject {
         self.name = name
     }
 }
-
 
 func TestKVO() {
     var swiftClass : OCClass!
