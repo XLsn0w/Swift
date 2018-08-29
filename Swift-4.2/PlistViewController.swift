@@ -40,7 +40,7 @@ class PlistViewController: UIViewController {
     }
     
     func setupUI(){
-        textField = UITextField(frame: CGRect(x: 10.0,y: 10.0,width: (self.view.frame.size.width - 10.0 * 2),height: 40.0))
+        textField = UITextField(frame: CGRect(x: 10.0, y: 10.0, width: (self.view.frame.size.width - 10.0 * 2), height: 40.0))
         self.view.addSubview(textField)
         textField.textColor = UIColor.black
         textField.clearButtonMode = .whileEditing

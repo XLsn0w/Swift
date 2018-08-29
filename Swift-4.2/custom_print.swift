@@ -22,15 +22,9 @@ import UIKit
  //        print("\(file):[\(funcName)](\(#line)) - 123")
  */
 // T是动态类型
-func printout<T>(message: T, file : String = #file, funcName:String = #function, lineNum : Int = #line){
-    
+func printout<T>(message: T, file : String = #file, funcName:String = #function, lineNum : Int = #line) {
     #if DEBUG
-    
-    // Build Settings --> swift flags --> 在debug后点击 + --> -D 自己起的名字
-    let fileName = (file as NSString).lastPathComponent
-    
-    // 打印函数名
-    print("\(fileName):(第\(lineNum)行) - \(message)")
-    
+    let fileName = (file as NSString).lastPathComponent  /// Build Settings --> swift flags --> 在debug后点击 + --> -D 自己起的名字
+    print("\(fileName):(第\(lineNum)行) - \(message)")    /// 打印函数名
     #endif
 }

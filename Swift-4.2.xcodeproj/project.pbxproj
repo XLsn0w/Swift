@@ -48,7 +48,6 @@
 		6612596921269D7300D07754 /* propertyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612596821269D7300D07754 /* propertyDemo.swift */; };
 		6612596B21269D8800D07754 /* classMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612596A21269D8800D07754 /* classMethod.swift */; };
 		6612596D21269D9D00D07754 /* enumDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612596C21269D9C00D07754 /* enumDemo.swift */; };
-		6612596F21269DEF00D07754 /* ClosureDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612596E21269DEE00D07754 /* ClosureDemo.swift */; };
 		6612597121269E1100D07754 /* funcDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612597021269E1100D07754 /* funcDemo.swift */; };
 		661259A12126A11D00D07754 /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = 661259732126A11C00D07754 /* types.plist */; };
 		661259A22126A11D00D07754 /* HTTPMethoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259752126A11D00D07754 /* HTTPMethoder.swift */; };
@@ -144,7 +143,6 @@
 		6612596821269D7300D07754 /* propertyDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = propertyDemo.swift; sourceTree = "<group>"; };
 		6612596A21269D8800D07754 /* classMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classMethod.swift; sourceTree = "<group>"; };
 		6612596C21269D9C00D07754 /* enumDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enumDemo.swift; sourceTree = "<group>"; };
-		6612596E21269DEE00D07754 /* ClosureDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureDemo.swift; sourceTree = "<group>"; };
 		6612597021269E1100D07754 /* funcDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = funcDemo.swift; sourceTree = "<group>"; };
 		661259732126A11C00D07754 /* types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = types.plist; sourceTree = "<group>"; };
 		661259752126A11D00D07754 /* HTTPMethoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethoder.swift; sourceTree = "<group>"; };
@@ -364,7 +362,6 @@
 				6612596621269D3E00D07754 /* structDemo.swift */,
 				6612596821269D7300D07754 /* propertyDemo.swift */,
 				6612596C21269D9C00D07754 /* enumDemo.swift */,
-				6612596E21269DEE00D07754 /* ClosureDemo.swift */,
 				6612597021269E1100D07754 /* funcDemo.swift */,
 				667B75F320EF36DD0018C4D4 /* Main.storyboard */,
 				667B75F620EF36DE0018C4D4 /* Assets.xcassets */,
@@ -627,7 +624,6 @@
 				6612592F212675AB00D07754 /* NSKeyedUnarchiverViewController.swift in Sources */,
 				661259B52126A11D00D07754 /* JQContentView.swift in Sources */,
 				6612592921266B2C00D07754 /* SortedArray.swift in Sources */,
-				6612596F21269DEF00D07754 /* ClosureDemo.swift in Sources */,
 				6612592B212672F200D07754 /* PlistViewController.swift in Sources */,
 				667B75F020EF36DD0018C4D4 /* AppDelegate.swift in Sources */,
 				6612591F212668ED00D07754 /* AlamofireViewController.swift in Sources */,
