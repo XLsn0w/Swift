@@ -1,15 +1,7 @@
-//
-//  main.swift
-//  闭包捕获值
-//
-//  Created by 韩俊强 on 2017/6/12.
-//  Copyright © 2017年 HaRi. All rights reserved.
-//
 
 import Foundation
 
-func getIncFunc(inc: Int) -> (Int) -> Int
-{
+func getIncFunc(inc: Int) -> (Int) -> Int {
     var max = 10
     func incFunc(x: Int) ->Int{
         print("incFunc函数结束")
