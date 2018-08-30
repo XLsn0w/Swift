@@ -1,12 +1,3 @@
-//
-//  custom_print.swift
-//  Swift-4.2
-//
-//  Created by HL on 2018/8/17.
-//  Copyright © 2018年 XL. All rights reserved.
-//
-
-import UIKit
 
 /*
  // 1.获取打印所在的文件

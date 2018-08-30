@@ -133,7 +133,8 @@ class AlamofireViewController: UIViewController, UITableViewDelegate, UITableVie
         */
         
         // 方法2:
-        let paramsDic:NSDictionary = ["userName":"xiaohange", "userPassword":"88995"]
+        let paramsDic:NSDictionary = ["userName":"xiaohange",
+                                      "userPassword":"88995"]
         do {
             let data:Data = try JSONSerialization.data(withJSONObject: paramsDic, options: JSONSerialization.WritingOptions.prettyPrinted)
             request.httpBody = data

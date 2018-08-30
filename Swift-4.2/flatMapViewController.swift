@@ -21,7 +21,7 @@ class flatMapViewController: UIViewController {
         
         //简单EX：
         let couple = [[1,2,3],[4,5,6],nil,[8,9,]]
-        let nonnil = couple.flatMap({ (number) -> [Int]? in
+        let nonnil = couple.compactMap({ (number) -> [Int]? in
             return number //返回元素[Int],为Int数组,并把nil过滤掉
         })
         
@@ -36,7 +36,7 @@ class flatMapViewController: UIViewController {
         let complex = [[1,2,3],[4,5,6],nil,[8,9,nil]]
         let simple = complex.flatMap({ (number) -> [Int] in
             //首先去除数组[8,9,nil]里的nil
-            let non_sub_nil = number?.flatMap({ (sub) -> Int? in
+            let non_sub_nil = number?.compactMap({ (sub) -> Int? in
                 return sub
             })
             //其次concatenated压平

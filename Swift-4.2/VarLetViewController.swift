@@ -59,8 +59,8 @@ class VarLetViewController: UIViewController {
          */
         var 🐥 = 100
         var 嘿嘿 = 200
-        
-        /*
+
+        /*'🐥
          常量:
          OC: const int num = 10;
          Swift: let num = 10
@@ -72,22 +72,4 @@ class VarLetViewController: UIViewController {
          */
         let num4 = 10    }
     
-
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

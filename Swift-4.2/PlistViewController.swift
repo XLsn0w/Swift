@@ -12,12 +12,10 @@ class PlistViewController: UIViewController {
 
     var filePathPlist = ""
     var textField = UITextField()
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+
         setupUI()
         
         let saveItem = UIBarButtonItem(title: "save", style: .done, target: self, action: #selector(saveAction))

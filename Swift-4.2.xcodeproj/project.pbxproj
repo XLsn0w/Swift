@@ -21,7 +21,7 @@
 		661259312126771E00D07754 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661259302126771E00D07754 /* Content.swift */; };
 		6612593321267ED400D07754 /* deferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612593221267ED400D07754 /* deferViewController.swift */; };
 		6612593521267F2600D07754 /* flatMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612593421267F2600D07754 /* flatMapViewController.swift */; };
-		6612593721267F6E00D07754 /* custom_print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612593621267F6E00D07754 /* custom_print.swift */; };
+		6612593721267F6E00D07754 /* printout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612593621267F6E00D07754 /* printout.swift */; };
 		66125939212690A400D07754 /* FileReadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66125938212690A400D07754 /* FileReadManager.swift */; };
 		6612593B212690EE00D07754 /* ThrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612593A212690EE00D07754 /* ThrowViewController.swift */; };
 		6612593D2126916B00D07754 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612593C2126916B00D07754 /* ClosureViewController.swift */; };
@@ -116,7 +116,7 @@
 		661259302126771E00D07754 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		6612593221267ED400D07754 /* deferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deferViewController.swift; sourceTree = "<group>"; };
 		6612593421267F2600D07754 /* flatMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flatMapViewController.swift; sourceTree = "<group>"; };
-		6612593621267F6E00D07754 /* custom_print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_print.swift; sourceTree = "<group>"; };
+		6612593621267F6E00D07754 /* printout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = printout.swift; sourceTree = "<group>"; };
 		66125938212690A400D07754 /* FileReadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReadManager.swift; sourceTree = "<group>"; };
 		6612593A212690EE00D07754 /* ThrowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowViewController.swift; sourceTree = "<group>"; };
 		6612593C2126916B00D07754 /* ClosureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
@@ -315,12 +315,12 @@
 			children = (
 				661259772126A11D00D07754 /* Classes */,
 				661259732126A11C00D07754 /* types.plist */,
+				6645C3B6212431BB00BB764D /* data.json */,
 				667B75EF20EF36DD0018C4D4 /* AppDelegate.swift */,
 				667B75F120EF36DD0018C4D4 /* ViewController.swift */,
 				66F439BB212552A700C535B7 /* VarLetViewController.swift */,
 				66F439BD2125536600C535B7 /* FoundationViewController.swift */,
 				667B761D20EF53F60018C4D4 /* Swift4.swift */,
-				6645C3B6212431BB00BB764D /* data.json */,
 				6645C3B7212431BB00BB764D /* SwiftStudy.swift */,
 				6612591D212668EC00D07754 /* AlamofireViewController.swift */,
 				6612591C212668EC00D07754 /* SessionDataTaskViewController.swift */,
@@ -335,7 +335,7 @@
 				661259302126771E00D07754 /* Content.swift */,
 				6612593221267ED400D07754 /* deferViewController.swift */,
 				6612593421267F2600D07754 /* flatMapViewController.swift */,
-				6612593621267F6E00D07754 /* custom_print.swift */,
+				6612593621267F6E00D07754 /* printout.swift */,
 				66125938212690A400D07754 /* FileReadManager.swift */,
 				6612593A212690EE00D07754 /* ThrowViewController.swift */,
 				6612593C2126916B00D07754 /* ClosureViewController.swift */,
@@ -594,7 +594,7 @@
 				661259A22126A11D00D07754 /* HTTPMethoder.swift in Sources */,
 				6612593B212690EE00D07754 /* ThrowViewController.swift in Sources */,
 				661259B12126A11D00D07754 /* JQNavigationController.swift in Sources */,
-				6612593721267F6E00D07754 /* custom_print.swift in Sources */,
+				6612593721267F6E00D07754 /* printout.swift in Sources */,
 				661259B22126A11D00D07754 /* MainViewController.swift in Sources */,
 				667B761E20EF53F60018C4D4 /* Swift4.swift in Sources */,
 				6612593321267ED400D07754 /* deferViewController.swift in Sources */,
